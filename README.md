@@ -13,7 +13,7 @@ https://github.com/coollazy/RSAds-iOS
 或寫在 `Package.swift`：
 
 ```swift
-.package(url: "https://github.com/coollazy/RSAds-iOS", from: "0.1.0")
+.package(url: "https://github.com/coollazy/RSAds-iOS", from: "0.1.1")
 ```
 
 ## 使用
@@ -40,6 +40,7 @@ view.addSubview(slot)
 - 曝光：版位至少一半在畫面上、連續 1 秒才算一次
 - 點擊：用系統瀏覽器開啟廣告網址，點擊數由平台記錄
 - 沒有可播的廣告時，版位自動收起
+- 版位右上角會自動顯示「廣告」小標（0.1.1 起），不用自己加
 
 ## 版本
 
