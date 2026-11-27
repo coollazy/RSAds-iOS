@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RSAds",
-            url: "https://github.com/coollazy/RSAds-iOS/releases/download/0.1.2/RSAds.xcframework.zip",
-            checksum: "c8d55f1a395ab558cacdf0792ef7d7c6ec3ed867bd7f3375fd398652f9e329b3"
+            url: "https://github.com/coollazy/RSAds-iOS/releases/download/0.1.3/RSAds.xcframework.zip",
+            checksum: "b803f5768a461e5a4376f7afe300ae7f542795a82dc0f68b7d352d414d43018d"
         ),
     ]
 )

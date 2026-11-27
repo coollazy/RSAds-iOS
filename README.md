@@ -1,6 +1,6 @@
 # RSAds iOS SDK
 
-在自己的 iOS App 播放你在 [RSAds](https://rsads.venwu.com) 上傳的廣告。iOS 15 以上，支援 SwiftUI 和 UIKit，GIF 動畫會動。
+在自己的 iOS App 播放你在 [RSAds](https://rsads.venwu.com) 上傳的廣告。iOS 15 以上，支援 SwiftUI 和 UIKit，GIF、動態 WebP 動畫會動（WebP 0.1.3 起）。
 
 ## 安裝（Swift Package Manager）
 
@@ -13,7 +13,7 @@ https://github.com/coollazy/RSAds-iOS
 或寫在 `Package.swift`：
 
 ```swift
-.package(url: "https://github.com/coollazy/RSAds-iOS", from: "0.1.2")
+.package(url: "https://github.com/coollazy/RSAds-iOS", from: "0.1.3")
 ```
 
 ## 使用
